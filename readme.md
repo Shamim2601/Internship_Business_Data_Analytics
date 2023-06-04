@@ -1,47 +1,46 @@
 ## Business_Data_Analytics_Transaction_Clustering_Virtual_Training
 
 ### table of contents
-   * [Overview](#overview)
-      * [Notebook](#r1)
-      * [Requirements](#r2)
-      * [Trained models](#r3)
-      * [Test script](#r4)
-      * [Dataset results](#r5)
-   * [How to run and test locally](#configure)
-   * [Sample Predicted Output](#predict)
-   * [Project Flow](#notebook)
+   * Overview
+      * Notebook
+      * Requirements
+      * Trained models
+      * Test script
+      * Dataset results
+   * How to run and test locally 
+   * Project Flow
 
 
 
-## Overview<a name="overview"></a>
+## Overview
    This project was about to categorize customer narrations at the time of transactions and analysis the behaviour of customers based on the categorization. It was done using unsupervised learning algorithms and NLP.
 
-### Notebook<a name="r1"></a>
-   The whole work is located at [Training_Task.ipynb]
+### Notebook
+   The whole work is located at "Training_Task.ipynb"
 
-### Requirements<a name="r2"></a>
-   The requirements to run this project locally and test accordingly at [requirements.txt]
+### Requirements
+   The requirements to run this project locally and test accordingly at "requirements.txt"
 
-### Trained Models<a name="r3"></a>
+### Trained Models
    Trained model for this project.
 
    * KMeans Clustering Model
 
-### Test Script<a name="r4"></a>
-   The test script to test the models [test_script.py]
+### Test Script
+   The test script to test the models "test_script.py"
 
-### Dataset Results<a name="r5"></a>
-   The results on the given labeled small dataset added in the [dataset_results]
+### Dataset Results
+   The results on the given labeled small dataset added in the "dataset_results"
 
 
-## How to run and test locally<a name="configure"></a>
+## How to run and test locally
 
  * clone or download the zip of the repo and unzip it
  * inside the project folder, open terminal and run -
 
        pip install -r requirements.txt
 
- * now we will be able to run the test script to predict new data. To run the test script, we need to provide a <b>filePath (.csv)</b> indicating the test data, <b>column name(narrations or something like that)</b> for prediction  and <b>the model name</b> of any of the three trained models.
+ * now we will be able to run the test script to predict new data. To run the test script, we need to provide a <b>filePath (.csv)</b> indicating the test data, <b>column name(narrations or something like that)</b> for prediction  and <b>the model name</b> for trained model.
  So, the command will be -
 
        python3 test_script.py "filepath" "columnName" "modelName"
@@ -51,7 +50,7 @@
 
          python3 test_script.py test.csv narrations kmeans
 
-## Project Flow<a name="notebook"></a>
+## Project Flow
 
    Some basic preprocessing techniques of NLP like tokenization, stop word removal, punctuation removal, digit removal, stemming, and lemmatization.
 
