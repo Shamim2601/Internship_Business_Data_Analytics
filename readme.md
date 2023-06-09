@@ -10,7 +10,9 @@
  * inside the project folder, open terminal and run -
 
       python3 main.py "fileName" "columnName"
+
 For example:
+
       python3 main.py test.csv narration
 
 This will output Categories of narrations in "test.csv" file.
