@@ -34,4 +34,5 @@ NLP Pipeline:
         * Stemming
         * Lemmatization (Please try to find out their difference like which is better in which case)
     * Stop words removal (Unimportant words in our text like a, an, the, preposition etc.)
-    *Categorization
+    * Categorization
+    * Most important word finding using TF-IDF
