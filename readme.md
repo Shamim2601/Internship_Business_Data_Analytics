@@ -15,7 +15,11 @@ For example:
 
       python3 main.py test.csv narration
 
-This will output Categories of narrations in "test.csv" file.
+This will output Categories of narrations of "test.csv" file.
+
+## Results
+
+Result of running above command on test.csv file, which output the category information and most important word of the narration can be viewed in console and also found in "test.txt" file.
 
 ## Project Flow
 
